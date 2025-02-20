@@ -21,8 +21,8 @@
     padding: 3px;
 }
 body{
-    padding-left: 300px;
-    padding-right: 200px;
+    padding-left: 240px;
+    padding-top: 20px;
 }
 .topnav1{
     display: flex;
@@ -42,6 +42,7 @@ body{
 .relative{
     position: relative;
     left: 45px;
+    top: 3px;
 }
 button{
    padding: 10px 10px 10px 45px;
@@ -51,11 +52,13 @@ button{
 input{
     
         padding-left: 50px;
-        width: 300px;
+        width: 500px;
+        border-radius: 12px;
+        text-align: start;
 }
 .topnav3{
     display: flex;  
-    justify-content: space-between;
+      
 }
 .input{
     display: flex;
@@ -67,4 +70,15 @@ input{
 }
 .b2{
     background-color: gray;
+}
+.offers{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 40px;
+}
+.lightning{
+    transform: rotateY(180DEG);
+    transform: translateY(-45%);
 }
