@@ -1,0 +1,143 @@
+.types{
+    display: flex;
+    margin-bottom: 10px;
+}
+.left-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 200px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-right: solid 1px gainsboro;
+}
+.m{
+    background-color: pink;
+    border-radius: 50%;
+    padding: 3px;
+}
+body{
+    padding-left: 240px;
+    padding-top: 20px;
+}
+.topnav1{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.topnav2{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.topnav{
+    display: flex;
+    justify-content: space-around;
+}
+.relative{
+    position: relative;
+    left: 45px;
+    top: 3px;
+}
+button{
+   padding: 10px 10px 10px 45px;
+   height: 50px;
+   border-radius: 12px;
+}
+input{
+    
+        padding-left: 50px;
+        width: 500px;
+        border-radius: 12px;
+        text-align: start;
+}
+.topnav3{
+    display: flex;  
+      
+}
+.input{
+    display: flex;
+}
+.b1{
+    background-color: pink;
+    color: white;
+    font-weight: 600;
+}
+.b2{
+    background-color: gray;
+}
+.superoffers{
+    display: flex;
+    justify-content: space-around;
+}
+.offers{
+    background-color: #f1f1c6;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+}
+.lightning{
+    rotate: 20deg;
+    transform: translateY(-45%);
+}
+.billie{
+    mix-blend-mode: multiply;
+    border-radius: 50%;
+}
+.offers1{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 40px; 
+    text-align: center; 
+    border-radius: 15px; 
+}
+.lightning1{
+    rotate: -40deg;
+    transform: translateY(45%);
+    margin-right: 15px;
+}
+.nike{
+    background-color: rgb(247, 241, 241);
+    padding: 5px 30px ;
+    border-radius: 15px; 
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: xx-large;
+   
+}
+.blazer{
+    mix-blend-mode: multiply; 
+}
+.line{
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+.clothes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.gym{
+    height: 250px;
+    border-radius: 10px;
+}
+.p50{
+    text-decoration: line-through;
+    padding: 10px;
+}
